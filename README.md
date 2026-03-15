@@ -1,16 +1,144 @@
-## Hi there 👋
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ff69b4&height=200&section=header&text=Jacqueline%20Saad&fontSize=40&fontAlignY=35&animation=twinkling&fontColor=ffffff"/>
+</p>
 
-<!--
-**Jaclyn25/Jaclyn25** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=Hi+👋+I'm+Jacqueline+Saad;Full+Stack+.NET+Developer;Backend+%26+Frontend+Engineer;Building+Scalable+Web+Applications"/>
+</h1>
 
-Here are some ideas to get you started:
+<h3 align="center">Full Stack Developer | .NET | Building Scalable Web Applications</h3>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=jaclyn25&label=Profile%20Views&color=ff69b4&style=flat"/>
+</p>
+
+---
+
+# 👩‍💻 About Me
+
+🎓 Computer Science Graduate with a passion for building robust software solutions  
+
+⚡ Full-Stack Trainee @ **Information Technology Institute**, mastering the art of building end-to-end enterprise applications  
+
+🛠️ Currently developing **NexusIT**, an AI-driven support & automation hub  
+
+🏗️ Expert in **SQL Server**, designing complex stored procedures and automated systems  
+
+🔭 Working on a **Real Estate System — Let’s build something massive together!**
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:jacquelinesaad497@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+# 🛠 Tech Stack
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+
+</p>
+
+---
+
+# 🚀 Languages & Tools
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=dotnet,cs,html,css,js,bootstrap,flutter,dart,firebase,figma,mysql,git,github,vscode,visualstudio" />
+
+</div>
+
+---
+
+# ⭐ Featured Projects
+
+### 🏠 Real Estate System
+Full Stack Web Application built using **ASP.NET Core, SQL Server, and modern frontend technologies**.
+
+### 🤖 NexusIT
+AI-powered **support & automation platform** designed to streamline IT services.
+
+### 📱 Dalelak
+Mobile application helping users **discover the best shopping places in Egypt**.
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=jaclyn25&show_icons=true&theme=radical" height="170"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaclyn25&layout=compact&theme=radical" height="170"/>
+
+</p>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=jaclyn25&theme=radical"/>
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=jaclyn25&theme=react-dark"/>
+</p>
+
+---
+
+# 🏆 GitHub Trophies
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=jaclyn25&theme=radical&row=1&column=7"/>
+</p>
+
+---
+
+# 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+</picture>
+
+---
+
+# 💬 Developer Quote
+
+<p align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+</p>
+
+---
+
+<p align="center">
+✨ <b>Code • Build • Innovate</b> ✨
+</p>
+
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ff69b4&height=120&section=footer"/>
+</p>
