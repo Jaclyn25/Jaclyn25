@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=Hi+👋+I'm+Jacqueline+Saad;Full+Stack+.NET+Developer;Backend+%26+Frontend+Engineer;Building+Scalable+Web+Applications"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=700&lines=Hi+👋+I'm+Jacqueline+Saad;Full+Stack+.NET+Developer;Backend+%26+Frontend+Engineer;Building+Scalable+Web+Applications"/>
 </h1>
 
 <h3 align="center">Full Stack Developer | .NET | Building Scalable Web Applications</h3>
