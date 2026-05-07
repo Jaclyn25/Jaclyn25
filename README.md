@@ -32,7 +32,7 @@
 
 <p align="center">
 
-<a href="https://www.linkedin.com/">
+<a href="https://www.linkedin.com/in/jacqueline-saad-25j/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
@@ -62,7 +62,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=dotnet,cs,html,css,js,bootstrap,flutter,dart,firebase,figma,mysql,git,github,vscode,visualstudio" />
+<img src="https://skillicons.dev/icons?i=dotnet,cs,html,css,js,bootstrap,angular,mysql,git,github,vscode,visualstudio,tailwind,figma" />
 
 </div>
 
@@ -84,11 +84,8 @@ Mobile application helping users **discover the best shopping places in Egypt**.
 # 📊 GitHub Stats
 
 <p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=jaclyn25&show_icons=true&theme=radical" height="170"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaclyn25&layout=compact&theme=radical" height="170"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=jaclyn25&show_icons=true&theme=radical&hide_border=true&count_private=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaclyn25&layout=compact&theme=radical&hide_border=true" height="170"/>
 </p>
 
 ---
@@ -96,7 +93,7 @@ Mobile application helping users **discover the best shopping places in Egypt**.
 # 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=jaclyn25&theme=radical"/>
+  <img src="https://streak-stats.demolab.com?user=jaclyn25&theme=radical&hide_border=true" />
 </p>
 
 ---
@@ -104,7 +101,7 @@ Mobile application helping users **discover the best shopping places in Egypt**.
 # 📈 Contribution Graph
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=jaclyn25&theme=react-dark"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaclyn25&theme=react-dark&area=true&hide_border=true"/>
 </p>
 
 ---
@@ -112,18 +109,16 @@ Mobile application helping users **discover the best shopping places in Egypt**.
 # 🏆 GitHub Trophies
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=jaclyn25&theme=radical&row=1&column=7"/>
+<img src="https://github-profile-trophy.vercel.app/?username=jaclyn25&theme=radical&row=1&column=7&margin-w=15"/>
 </p>
 
 ---
 
 # 🐍 Contribution Snake
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-</picture>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jaclyn25/jaclyn25/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
 
 ---
 
