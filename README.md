@@ -82,18 +82,16 @@ Mobile application helping users **discover the best shopping places in Egypt**.
 ---
 
 # 📊 GitHub Stats
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jaclyn25&show_icons=true&theme=radical&hide_border=true&count_private=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaclyn25&layout=compact&theme=radical&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jaclyn25&show_icons=true&theme=radical&count_private=true" height="170"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jaclyn25&layout=compact&theme=radical" height="170"/>
 </p>
 
 ---
 
 # 🔥 GitHub Streak
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=jaclyn25&theme=radical&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaclyn25&theme=radical" />
 </p>
 
 ---
