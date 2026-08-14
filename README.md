@@ -12,6 +12,10 @@
 </p>
 
 <p align="center">
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jaclyn25&show_icons=false&count_private=true&include_all_commits=true&hide=stars,issues,contribs,prs,rank&theme=radical&hide_border=true&hide_title=true&custom_title=Total%20Commits" height="90"/>
+</p>
+
+<p align="center">
 <a href="https://www.linkedin.com/in/jacqueline-saad-25j/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
