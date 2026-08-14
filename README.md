@@ -30,21 +30,35 @@
 ```yaml
 name: Jacqueline Saad
 role: Full Stack .NET Developer
-education: Computer Science Graduate
-current_program: Full-Stack Trainee @ Information Technology Institute (ITI)
-focus: Enterprise web applications, scalable backend systems, clean architecture
-currently_building: NexusIT — an AI-driven support & automation hub
-open_to: Collaboration on a large-scale Real Estate System
+based_in: Egypt
+status: Full-Stack Trainee @ Information Technology Institute (ITI)
 fun_fact: I enjoy turning messy requirements into robust, well-structured code
 ```
 
-- 🎓 Computer Science graduate with a passion for building robust, production-ready software
-- ⚡ Mastering end-to-end enterprise application development at the **Information Technology Institute**
-- 🛠️ Currently building **NexusIT**, an AI-driven support & automation hub
-- 🏗️ Comfortable designing complex **SQL Server** stored procedures and automated data workflows
-- 🔭 Actively working on a **Real Estate System** — always open to collaborating on something big
-- 💬 Ask me about **.NET, C#, SQL Server, or Angular**
-- 📫 Best way to reach me: **jacquelinesaad497@gmail.com**
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🎯 What I'm about**
+- 🎓 CS graduate focused on building robust, production-ready software
+- 🏗️ Deep in **SQL Server** — complex stored procedures & automated data workflows
+- 📚 Mastering end-to-end enterprise app development at **ITI**
+
+</td>
+<td width="50%" valign="top">
+
+**🚧 What I'm working on**
+- 🤖 **NexusIT** — an AI-driven support & automation hub
+- 🏠 **Real Estate System** — always open to collaborators
+- 💬 Happy to talk **.NET, C#, SQL Server, or Angular**
+
+</td>
+</tr>
+</table>
+
+<p align="left">
+📫 <b>Reach me at:</b> <a href="mailto:jacquelinesaad497@gmail.com">jacquelinesaad497@gmail.com</a>
+</p>
 
 ---
 
@@ -99,7 +113,7 @@ Mobile app helping users **discover the best shopping places in Egypt** — buil
 ## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jaclyn25&show_icons=true&theme=radical&count_private=true&hide_border=true" height="170"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jaclyn25&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide_border=true" height="170"/>
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jaclyn25&layout=compact&theme=radical&hide_border=true" height="170"/>
 </p>
 
@@ -111,6 +125,8 @@ Mobile app helping users **discover the best shopping places in Egypt** — buil
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaclyn25&theme=react-dark&area=true&hide_border=true"/>
 </p>
 
+> ℹ️ `include_all_commits=true&count_private=true` above makes the "Total Commits" number count **all** commits (including private repos), not just the default public-only estimate.
+
 ---
 
 ## 🏆 GitHub Trophies
@@ -119,6 +135,8 @@ Mobile app helping users **discover the best shopping places in Egypt** — buil
 <img src="https://github-profile-trophy.vercel.app/?username=jaclyn25&theme=radical&row=1&column=7&margin-w=15"/>
 </p>
 
+> ⚠️ This free service (`github-profile-trophy.vercel.app`) frequently rate-limits or goes down. If it's not loading, wait a bit and refresh — it's not something wrong with your README.
+
 ---
 
 ## 🐍 Contribution Snake
@@ -126,6 +144,8 @@ Mobile app helping users **discover the best shopping places in Egypt** — buil
 <p align="center">
 <img src="https://raw.githubusercontent.com/jaclyn25/jaclyn25/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
+
+> ⚠️ This image only appears once a GitHub Action is generating it in your `jaclyn25/jaclyn25` repo. See setup steps below if it's still broken.
 
 ---
 
