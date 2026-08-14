@@ -100,32 +100,38 @@
 ## ⭐ Featured Projects
 
 <table align="center">
-  <tr>
-    <td width="33%" valign="top">
+<tr>
+<td width="33%" valign="top">
 
-### 🏠 Real Estate System
+<h3>🚕 Go Taxi</h3>
 
-Full-stack property listings and management platform built with **ASP.NET Core** and **SQL Server**, with a focus on scalable architecture and clean data modeling.
+<p>A modern taxi-booking platform serving the Netherlands, focused on fast reservations, transparent pricing, comfortable rides, and reliable 24/7 availability.</p>
 
-    </td>
-    <td width="33%" valign="top">
+<p><a href="https://deel.taxi/">Visit live website →</a></p>
 
-### 🤖 NexusIT
+</td>
+<td width="33%" valign="top">
 
-AI-powered **support and automation platform** designed to streamline IT service workflows and speed up issue resolution.
+<h3>✈️ Safarni</h3>
 
-    </td>
-    <td width="33%" valign="top">
+<p>A travel discovery platform designed to help users explore destinations, discover experiences, and plan their next journey through a clean, focused interface.</p>
 
-### 📱 Dalelak
+<p><a href="https://safarni-travel.runasp.net/">Live website →</a> · <a href="https://github.com/Jaclyn25/Safarni">Repository →</a></p>
 
-Mobile app that helps users **discover shopping places in Egypt**, with a focus on clean UX and location-based discovery.
+</td>
+<td width="33%" valign="top">
 
-    </td>
-  </tr>
+<h3>📚 Dragon LMS — Reham</h3>
+
+<p>An online math learning platform with interactive assignments, skill-building exercises, and detailed analytics for students, teachers, and parents.</p>
+
+<p><a href="https://missrehamsamy.com/">Live website →</a> · <a href="https://github.com/Jaclyn25/Dragon-Lms-Reham">Repository →</a></p>
+
+</td>
+</tr>
 </table>
 
-> 💡 Explore the pinned repositories on my profile to see the code.
+> 💡 Explore the live products and repositories to see the projects in action and review their implementation details.
 
 ---
 
