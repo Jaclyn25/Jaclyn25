@@ -117,33 +117,33 @@
 
 <h3>🚕 Go Taxi</h3>
 
-<p>A modern taxi-booking platform serving the Netherlands, focused on fast reservations, transparent pricing, comfortable rides, and reliable 24/7 availability.</p>
+<p><a href="https://deel.taxi/">Live Demo ↗</a></p>
 
-<p><a href="https://deel.taxi/">Visit live website →</a></p>
+<p>A modern taxi-booking platform serving the Netherlands, focused on fast reservations, transparent pricing, comfortable rides, and reliable 24/7 availability.</p>
 
 </td>
 <td width="33%" valign="top">
 
 <h3>✈️ Safarni</h3>
 
-<p>A travel discovery platform designed to help users explore destinations, discover experiences, and plan their next journey through a clean, focused interface.</p>
+<p><a href="https://safarni-travel.runasp.net/">Live Demo ↗</a></p>
 
-<p><a href="https://safarni-travel.runasp.net/">Live website →</a> · <a href="https://github.com/Jaclyn25/Safarni">Repository →</a></p>
+<p>A travel discovery platform designed to help users explore destinations, discover experiences, and plan their next journey through a clean, focused interface.</p>
 
 </td>
 <td width="33%" valign="top">
 
 <h3>📚 Dragon LMS — Reham</h3>
 
-<p>An online math learning platform with interactive assignments, skill-building exercises, and detailed analytics for students, teachers, and parents.</p>
+<p><a href="https://missrehamsamy.com/">Live Demo ↗</a></p>
 
-<p><a href="https://missrehamsamy.com/">Live website →</a> · <a href="https://github.com/Jaclyn25/Dragon-Lms-Reham">Repository →</a></p>
+<p>An online math learning platform with interactive assignments, skill-building exercises, and detailed analytics for students, teachers, and parents.</p>
 
 </td>
 </tr>
 </table>
 
-> 💡 Explore the live products and repositories to see the projects in action and review their implementation details.
+> 💡 Explore each live product through its demo link.
 
 ---
 
