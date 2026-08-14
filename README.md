@@ -1,170 +1,145 @@
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF69B4,100:8A2BE2&height=220&section=header&text=Jacqueline%20Saad&fontSize=42&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Full%20Stack%20.NET%20Developer&descAlignY=55&descSize=18"/>
-</p>
-
-<h1 align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=30&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+Jacqueline+Saad;Full+Stack+.NET+Developer;Backend+%26+Frontend+Engineer;Building+Scalable+Web+Applications;Turning+Ideas+Into+Real+Products"/>
-</h1>
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=jaclyn25&label=Profile%20Views&color=ff69b4&style=for-the-badge"/>
-<img src="https://img.shields.io/github/followers/jaclyn25?label=Followers&style=for-the-badge&color=ff69b4"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF69B4,100:8A2BE2&height=220&section=header&text=Jacqueline%20Saad&fontSize=42&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Full%20Stack%20.NET%20Developer&descAlignY=55&descSize=18" alt="Jacqueline Saad — Full Stack .NET Developer" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jaclyn25&show_icons=false&count_private=true&include_all_commits=true&hide=stars,issues,contribs,prs,rank&theme=radical&hide_border=true&hide_title=true&custom_title=Total%20Commits" height="90"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=25&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+Jacqueline+Saad;Full+Stack+.NET+Developer;Backend+%26+Frontend+Engineer;Building+Scalable+Web+Applications;Turning+Ideas+Into+Real+Products" alt="Typing introduction" />
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/jacqueline-saad-25j/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:jacquelinesaad497@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://github.com/jaclyn25" target="_blank">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+  <a href="https://github.com/Jaclyn25"><img src="https://komarev.com/ghpvc/?username=jaclyn25&label=Profile%20Views&color=ff69b4&style=for-the-badge" alt="Profile views" /></a>
+  <a href="https://github.com/Jaclyn25?tab=followers"><img src="https://img.shields.io/github/followers/Jaclyn25?label=Followers&style=for-the-badge&color=ff69b4" alt="GitHub followers" /></a>
+  <a href="https://github.com/Jaclyn25/Jaclyn25/commits/main/"><img src="https://img.shields.io/github/commit-activity/t/Jaclyn25/Jaclyn25?label=Profile%20Repo%20Commits&style=for-the-badge&color=8A2BE2" alt="Profile repository commits" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/jacqueline-saad-25j/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:jacquelinesaad497@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/Jaclyn25"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 ---
 
 ## 👩‍💻 About Me
 
-```yaml
-name: Jacqueline Saad
-role: Full Stack .NET Developer
-based_in: Egypt
-status: Full-Stack Trainee @ Information Technology Institute (ITI)
-fun_fact: I enjoy turning messy requirements into robust, well-structured code
-```
-
 <table>
-<tr>
-<td width="50%" valign="top">
+  <tr>
+    <td width="52%" valign="top">
 
-**🎯 What I'm about**
-- 🎓 CS graduate focused on building robust, production-ready software
-- 🏗️ Deep in **SQL Server** — complex stored procedures & automated data workflows
-- 📚 Mastering end-to-end enterprise app development at **ITI**
+### 🎯 What I do
 
-</td>
-<td width="50%" valign="top">
+- 🎓 CS graduate focused on production-ready software
+- 🏗️ Building robust APIs and end-to-end web applications
+- 🗄️ Working deeply with **SQL Server**, stored procedures, and data workflows
+- 📚 Sharpening enterprise development skills at **ITI**
 
-**🚧 What I'm working on**
-- 🤖 **NexusIT** — an AI-driven support & automation hub
-- 🏠 **Real Estate System** — always open to collaborators
-- 💬 Happy to talk **.NET, C#, SQL Server, or Angular**
+    </td>
+    <td width="48%" valign="top">
 
-</td>
-</tr>
+### 🚀 Current focus
+
+- 🤖 **NexusIT** — AI-powered support and automation hub
+- 🏠 **Real Estate System** — scalable property management platform
+- 💬 Always happy to talk about **.NET, C#, SQL Server, or Angular**
+
+    </td>
+  </tr>
 </table>
 
-<p align="left">
-📫 <b>Reach me at:</b> <a href="mailto:jacquelinesaad497@gmail.com">jacquelinesaad497@gmail.com</a>
-</p>
+> 💡 I enjoy turning messy requirements into clean, well-structured solutions.
 
 ---
 
-## 🛠 Tech Stack
+## 🔥 Total GitHub Commits & Activity
 
 <p align="center">
-<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-<img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
-<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaclyn25&show_icons=false&hide=stars,issues,prs,contribs&hide_rank=true&include_all_commits=true&custom_title=Total%20GitHub%20Commits&theme=radical&hide_border=true&card_width=495" alt="Total GitHub commits" height="150" />
 </p>
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=dotnet,cs,html,css,js,bootstrap,angular,mysql,git,github,vscode,visualstudio,tailwind,figma" />
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Jaclyn25&theme=radical&hide_border=true" alt="GitHub contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jaclyn25&theme=react-dark&area=true&hide_border=true&custom_title=Recent%20GitHub%20Activity" alt="Recent GitHub activity graph" />
+</p>
+
+<details>
+  <summary>ℹ️ About the commit number</summary>
+
+  The large card uses `include_all_commits=true` to count commits across the account's public repositories. GitHub-readme-stats needs a self-hosted instance and token to include private repository commits reliably.
+</details>
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C Sharp" />
+  <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
+  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=dotnet,cs,html,css,js,bootstrap,angular,mysql,git,github,vscode,visualstudio,tailwind,figma" alt="Technology icons" />
+</p>
 
 ---
 
 ## ⭐ Featured Projects
 
 <table align="center">
-<tr>
-<td width="33%" valign="top">
+  <tr>
+    <td width="33%" valign="top">
 
 ### 🏠 Real Estate System
-Full-stack web application for property listings and management, built with **ASP.NET Core**, **SQL Server**, and modern frontend tooling. Focused on scalable architecture and clean data modeling.
 
-</td>
-<td width="33%" valign="top">
+Full-stack property listings and management platform built with **ASP.NET Core** and **SQL Server**, with a focus on scalable architecture and clean data modeling.
+
+    </td>
+    <td width="33%" valign="top">
 
 ### 🤖 NexusIT
-AI-powered **support & automation platform** designed to streamline IT service workflows, reduce manual overhead, and speed up issue resolution.
 
-</td>
-<td width="33%" valign="top">
+AI-powered **support and automation platform** designed to streamline IT service workflows and speed up issue resolution.
+
+    </td>
+    <td width="33%" valign="top">
 
 ### 📱 Dalelak
-Mobile app helping users **discover the best shopping places in Egypt** — built with a focus on clean UX and location-based discovery.
 
-</td>
-</tr>
+Mobile app that helps users **discover shopping places in Egypt**, with a focus on clean UX and location-based discovery.
+
+    </td>
+  </tr>
 </table>
 
-> 💡 Want to see the code? Check out the pinned repositories on my profile.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jaclyn25&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide_border=true" height="170"/>
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jaclyn25&layout=compact&theme=radical&hide_border=true" height="170"/>
-</p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jaclyn25&theme=radical&hide_border=true" />
-</p>
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=jaclyn25&theme=react-dark&area=true&hide_border=true"/>
-</p>
-
-> ℹ️ `include_all_commits=true&count_private=true` above makes the "Total Commits" number count **all** commits (including private repos), not just the default public-only estimate.
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=jaclyn25&theme=radical&row=1&column=7&margin-w=15"/>
-</p>
-
-> ⚠️ This free service (`github-profile-trophy.vercel.app`) frequently rate-limits or goes down. If it's not loading, wait a bit and refresh — it's not something wrong with your README.
+> 💡 Explore the pinned repositories on my profile to see the code.
 
 ---
 
 ## 🐍 Contribution Snake
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/jaclyn25/jaclyn25/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" />
+  </picture>
 </p>
 
-> ⚠️ This image only appears once a GitHub Action is generating it in your `jaclyn25/jaclyn25` repo. See setup steps below if it's still broken.
-
----
-
-## 💬 Developer Quote
-
-<p align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
-</p>
+> The repository workflow refreshes these images automatically every day.
 
 ---
 
 <p align="center">
-✨ <b>Code • Build • Innovate</b> ✨
+  <i>✨ Code • Build • Innovate ✨</i>
 </p>
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:FF69B4&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:FF69B4&height=120&section=footer" alt="Profile footer" />
 </p>
