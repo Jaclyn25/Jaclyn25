@@ -50,10 +50,17 @@
 
 ---
 
-## 🔥 Total GitHub Commits & Activity
+## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaclyn25&show_icons=false&hide=stars,issues,prs,contribs&hide_rank=true&include_all_commits=true&custom_title=Total%20GitHub%20Commits&theme=radical&hide_border=true&card_width=495" alt="Total GitHub commits" height="150" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jaclyn25&theme=radical" alt="GitHub overview with stars, commits, pull requests, issues, and contributions" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaclyn25&show_icons=false&hide=stars,prs,issues,contribs&hide_rank=true&include_all_commits=true&number_format=long&custom_title=All-time%20GitHub%20Commits&theme=radical&hide_border=true&card_width=495" alt="All-time GitHub commits" align="middle" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/commit-activity/t/Jaclyn25/Jaclyn25?label=Profile%20Repo%20Commits&style=for-the-badge&color=8A2BE2" alt="Profile repository commits" />
+  <img src="https://img.shields.io/github/issues-pr-raw/Jaclyn25/Jaclyn25?label=Profile%20Repo%20PRs&style=for-the-badge&color=8A2BE2" alt="Profile repository pull requests" />
+  <img src="https://img.shields.io/github/issues-raw/Jaclyn25/Jaclyn25?label=Profile%20Repo%20Issues&style=for-the-badge&color=FF69B4" alt="Profile repository issues" />
 </p>
 
 <p align="center">
@@ -67,7 +74,7 @@
 <details>
   <summary>ℹ️ About the commit number</summary>
 
-  The large card uses `include_all_commits=true` to count commits across the account's public repositories. GitHub-readme-stats needs a self-hosted instance and token to include private repository commits reliably.
+  The overview card shows stars, commits, pull requests, issues, and contributed repositories. The separate card highlights all-time commits, while the badges below show the profile repository itself. These hosted cards use public activity; private repository statistics require a self-hosted instance with a GitHub token.
 </details>
 
 ---
