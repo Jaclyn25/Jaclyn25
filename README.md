@@ -76,7 +76,13 @@
 <h3 align="center">Contribution Streak</h3>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com/?user=Jaclyn25&theme=radical&hide_border=true" alt="GitHub contribution streak" />
+  <a href="https://github.com/Jaclyn25?tab=overview#js-contribution-activity">
+    <img width="100%" src="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/contribution-streak.svg" alt="GitHub contribution streak showing current streak, longest streak, active days, and total contributions" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Jaclyn25?tab=overview#js-contribution-activity">View the full contribution calendar on GitHub ↗</a>
 </p>
 
 <p align="center">
@@ -146,18 +152,6 @@
 > 💡 Explore each live product through its demo link.
 
 ---
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" />
-  </picture>
-</p>
-
-> The repository workflow refreshes these images automatically every day.
 
 ---
 
