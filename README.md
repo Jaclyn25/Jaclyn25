@@ -53,7 +53,7 @@
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/github-statistics.svg" alt="GitHub Statistics dashboard showing live account overview, all-time commits, profile repository activity, and contribution streak" />
+  <img width="100%" src="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/github-statistics.svg?v=2" alt="GitHub Statistics dashboard showing live account overview, all-time commits, profile repository activity, and contribution streak" />
 </p>
 
 <details>
