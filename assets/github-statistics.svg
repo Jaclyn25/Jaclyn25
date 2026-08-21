@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title description">
+  <!-- The GitHub Actions workflow replaces every metric before publishing this card. -->
   <title id="title">Jacqueline Saad's GitHub Statistics</title>
   <desc id="description">A dark GitHub statistics dashboard with account overview, all-time commits, profile repository activity, and contribution streak metrics.</desc>
 

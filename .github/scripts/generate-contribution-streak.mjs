@@ -2,15 +2,26 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const username = process.env.GITHUB_USERNAME;
 const token = process.env.GITHUB_TOKEN;
+const repository = process.env.GITHUB_REPOSITORY ?? `${username}/${username}`;
+const [repositoryOwner, repositoryName] = repository.split("/", 2);
 
 if (!username || !token) {
   throw new Error("GITHUB_USERNAME and GITHUB_TOKEN are required.");
 }
 
 const query = `
-  query ContributionCalendar($username: String!) {
+  query GithubStatistics(
+    $username: String!
+    $repositoryOwner: String!
+    $repositoryName: String!
+    $cursor: String
+  ) {
     user(login: $username) {
       contributionsCollection {
+        totalCommitContributions
+        totalPullRequestContributions
+        totalIssueContributions
+        totalRepositoriesWithContributedCommits
         contributionCalendar {
           totalContributions
           weeks {
@@ -21,32 +32,91 @@ const query = `
           }
         }
       }
+      repositories(
+        first: 100
+        after: $cursor
+        ownerAffiliations: OWNER
+        privacy: PUBLIC
+        isFork: false
+      ) {
+        nodes {
+          stargazerCount
+        }
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
+      }
+    }
+    repository(owner: $repositoryOwner, name: $repositoryName) {
+      defaultBranchRef {
+        target {
+          ... on Commit {
+            history(first: 1) {
+              totalCount
+            }
+          }
+        }
+      }
+      pullRequests(states: OPEN) {
+        totalCount
+      }
+      issues(states: OPEN) {
+        totalCount
+      }
     }
   }
 `;
 
-const response = await fetch("https://api.github.com/graphql", {
-  method: "POST",
-  headers: {
-    Accept: "application/vnd.github+json",
-    Authorization: `bearer ${token}`,
-    "User-Agent": "Jaclyn25-profile-readme",
-  },
-  body: JSON.stringify({ query, variables: { username } }),
-});
+const githubHeaders = {
+  Accept: "application/vnd.github+json",
+  Authorization: `bearer ${token}`,
+  "User-Agent": "Jaclyn25-profile-readme",
+};
 
-if (!response.ok) {
-  throw new Error(`GitHub GraphQL request failed with ${response.status}.`);
-}
+const fetchGraphQL = async (variables) => {
+  const response = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: githubHeaders,
+    body: JSON.stringify({ query, variables }),
+  });
 
-const payload = await response.json();
-if (payload.errors?.length) {
-  throw new Error(payload.errors.map((error) => error.message).join(" "));
-}
+  if (!response.ok) {
+    throw new Error(`GitHub GraphQL request failed with ${response.status}.`);
+  }
 
-const calendar = payload.data?.user?.contributionsCollection?.contributionCalendar;
-if (!calendar) {
-  throw new Error(`No contribution calendar found for ${username}.`);
+  const payload = await response.json();
+  if (payload.errors?.length) {
+    throw new Error(payload.errors.map((error) => error.message).join(" "));
+  }
+
+  return payload.data;
+};
+
+const variables = {
+  username,
+  repositoryOwner,
+  repositoryName,
+  cursor: null,
+};
+
+let profileData;
+let repositories = [];
+do {
+  profileData = await fetchGraphQL(variables);
+  repositories = repositories.concat(profileData.user?.repositories?.nodes ?? []);
+
+  const pageInfo = profileData.user?.repositories?.pageInfo;
+  variables.cursor = pageInfo?.hasNextPage ? pageInfo.endCursor : null;
+} while (variables.cursor);
+
+const user = profileData.user;
+const contributions = user?.contributionsCollection;
+const calendar = contributions?.contributionCalendar;
+const profileRepository = profileData.repository;
+
+if (!user || !contributions || !calendar || !profileRepository) {
+  throw new Error(`GitHub statistics are unavailable for ${username}.`);
 }
 
 const days = calendar.weeks
@@ -87,7 +157,35 @@ for (; currentIndex >= 0; currentIndex -= 1) {
 }
 
 const activeDays = days.filter((day) => day.contributionCount > 0).length;
-const totalContributions = calendar.totalContributions.toLocaleString("en-US");
+
+const searchResponse = await fetch(
+  `https://api.github.com/search/commits?q=author:${encodeURIComponent(username)}&per_page=1`,
+  { headers: { ...githubHeaders, Accept: "application/vnd.github.cloak-preview+json" } },
+);
+
+if (!searchResponse.ok) {
+  throw new Error(`GitHub commit search failed with ${searchResponse.status}.`);
+}
+
+const searchPayload = await searchResponse.json();
+const allTimeCommits = searchPayload.total_count ?? 0;
+
+const totalStars = repositories.reduce((sum, repo) => sum + repo.stargazerCount, 0);
+const accountStats = {
+  stars: totalStars,
+  commits: contributions.totalCommitContributions,
+  pullRequests: contributions.totalPullRequestContributions,
+  issues: contributions.totalIssueContributions,
+  contributedTo: contributions.totalRepositoriesWithContributedCommits,
+};
+
+const profileStats = {
+  commits: profileRepository.defaultBranchRef?.target?.history?.totalCount ?? 0,
+  pullRequests: profileRepository.pullRequests.totalCount,
+  issues: profileRepository.issues.totalCount,
+};
+
+const formatCount = (value) => Number(value ?? 0).toLocaleString("en-US");
 
 const escapeXml = (value) =>
   String(value).replace(/[&<>"']/g, (character) => ({
@@ -98,16 +196,42 @@ const escapeXml = (value) =>
     "'": "&apos;",
   })[character]);
 
+const replaceTextAt = (source, x, y, value) =>
+  source.replace(
+    new RegExp(`(<text[^>]*x="${x}"[^>]*y="${y}"[^>]*>)[^<]*(</text>)`),
+    `$1${escapeXml(value)}$2`,
+  );
+
+const renderStatistics = (template) => {
+  const values = [
+    [421, 289, formatCount(accountStats.stars)],
+    [421, 332, formatCount(accountStats.commits)],
+    [421, 377, formatCount(accountStats.pullRequests)],
+    [421, 421, formatCount(accountStats.issues)],
+    [421, 465, formatCount(accountStats.contributedTo)],
+    [1350, 420, formatCount(allTimeCommits)],
+    [434, 610, formatCount(profileStats.commits)],
+    [908, 610, formatCount(profileStats.pullRequests)],
+    [1370, 610, formatCount(profileStats.issues)],
+    [160, 912, currentStreak],
+    [460, 912, longestStreak],
+    [806, 912, activeDays],
+    [1166, 912, formatCount(calendar.totalContributions)],
+  ];
+
+  return values.reduce((svg, [x, y, value]) => replaceTextAt(svg, x, y, value), template);
+};
+
 const stat = (x, label, value) => `
   <g transform="translate(${x} 0)">
     <text x="0" y="0" fill="#f7f1ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">${escapeXml(value)}</text>
     <text x="0" y="24" fill="#c6bfd2" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.2">${escapeXml(label.toUpperCase())}</text>
   </g>`;
 
-const svg = `<?xml version="1.0" encoding="UTF-8"?>
+const contributionSvg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260" role="img" aria-labelledby="title description">
   <title id="title">GitHub contribution streak for ${escapeXml(username)}</title>
-  <desc id="description">${escapeXml(currentStreak)} day current streak, ${escapeXml(longestStreak)} day longest streak, ${escapeXml(activeDays)} active days, and ${escapeXml(totalContributions)} total contributions.</desc>
+  <desc id="description">${escapeXml(currentStreak)} day current streak, ${escapeXml(longestStreak)} day longest streak, ${escapeXml(activeDays)} active days, and ${escapeXml(calendar.totalContributions)} total contributions.</desc>
   <rect width="860" height="260" rx="18" fill="#151221"/>
   <circle cx="770" cy="-8" r="170" fill="#8a2be2" opacity="0.13"/>
   <circle cx="840" cy="238" r="120" fill="#ff69b4" opacity="0.1"/>
@@ -118,20 +242,14 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
     ${stat(0, "Current streak", `${currentStreak} days`)}
     ${stat(190, "Longest streak", `${longestStreak} days`)}
     ${stat(380, "Active days", activeDays)}
-    ${stat(570, "Total contributions", totalContributions)}
+    ${stat(570, "Total contributions", formatCount(calendar.totalContributions))}
   </g>
   <text x="44" y="226" fill="#ff69b4" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">JACLYN25 / OPEN SOURCE ACTIVITY</text>
 </svg>
 `;
 
 await mkdir("dist", { recursive: true });
-await writeFile("dist/contribution-streak.svg", svg, "utf8");
+await writeFile("dist/contribution-streak.svg", contributionSvg, "utf8");
 
 const statisticsTemplate = await readFile("assets/github-statistics.svg", "utf8");
-const statisticsSvg = statisticsTemplate
-  .replace(/(<text x="160" y="912">)[^<]+(<\/text>)/, `$1${currentStreak}$2`)
-  .replace(/(<text x="460" y="912">)[^<]+(<\/text>)/, `$1${longestStreak}$2`)
-  .replace(/(<text x="806" y="912">)[^<]+(<\/text>)/, `$1${activeDays}$2`)
-  .replace(/(<text x="1166" y="912">)[^<]+(<\/text>)/, `$1${totalContributions}$2`);
-
-await writeFile("dist/github-statistics.svg", statisticsSvg, "utf8");
+await writeFile("dist/github-statistics.svg", renderStatistics(statisticsTemplate), "utf8");
