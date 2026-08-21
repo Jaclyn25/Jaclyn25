@@ -252,4 +252,6 @@ await mkdir("dist", { recursive: true });
 await writeFile("dist/contribution-streak.svg", contributionSvg, "utf8");
 
 const statisticsTemplate = await readFile("assets/github-statistics.svg", "utf8");
-await writeFile("dist/github-statistics.svg", renderStatistics(statisticsTemplate), "utf8");
+const statisticsSvg = renderStatistics(statisticsTemplate);
+await writeFile("assets/github-statistics.svg", statisticsSvg, "utf8");
+await writeFile("dist/github-statistics.svg", statisticsSvg, "utf8");

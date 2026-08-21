@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Update GitHub statistics
 
 on:
   schedule:
@@ -7,6 +7,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - assets/github-statistics.svg
 
 permissions:
   contents: write
@@ -27,17 +29,14 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node .github/scripts/generate-contribution-streak.mjs
 
-      - name: Generate snake animation
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Publish generated images
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: ./dist
+      - name: Commit updated GitHub statistics image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-statistics.svg
+          if git diff --cached --quiet; then
+            echo "No statistics changes."
+          else
+            git commit -m "Update GitHub statistics image"
+            git push origin HEAD:main
+          fi
