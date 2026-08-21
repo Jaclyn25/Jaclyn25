@@ -121,7 +121,7 @@
 # 🏆 GitHub Trophies
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Jaclyn25&theme=radical&row=1&column=7&margin-w=15" alt="Jacqueline Saad GitHub trophies"/>
+<img src="./assets/github-trophies.svg" alt="Jacqueline Saad GitHub trophies"/>
 </p>
 
 ---
