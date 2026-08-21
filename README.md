@@ -52,14 +52,25 @@
 
 ## 📊 GitHub Statistics
 
+<div align="center">
+  <a href="https://github.com/Jaclyn25">
+    <img height="190" src="https://github-readme-stats.vercel.app/api?username=Jaclyn25&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&custom_title=GitHub%20Statistics&number_format=long&theme=dark&bg_color=0b1117&title_color=60e493&icon_color=73a8ff&text_color=c6d0d8&border_color=2b3841" alt="Live GitHub account statistics for Jacqueline Saad" />
+  </a>
+  <a href="https://github.com/Jaclyn25?tab=overview#js-contribution-activity">
+    <img height="190" src="https://streak-stats.demolab.com/?user=Jaclyn25&theme=dark&background=0B1117&border=2B3841&ring=60E493&fire=BB7CFF&currStreakLabel=73A8FF&sideLabels=C6D0D8&currStreakNum=60E493&sideNums=73A8FF&dates=C6D0D8" alt="Live GitHub contribution streak for Jacqueline Saad" />
+  </a>
+</div>
+
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/github-statistics.svg?v=2" alt="GitHub Statistics dashboard showing live account overview, all-time commits, profile repository activity, and contribution streak" />
+  <img src="https://img.shields.io/github/commit-activity/t/Jaclyn25/Jaclyn25?label=Profile%20Repo%20Commits&style=for-the-badge&color=60E493" alt="Live profile repository commit activity" />
+  <img src="https://img.shields.io/github/issues-pr-raw/Jaclyn25/Jaclyn25?label=Profile%20Repo%20PRs&style=for-the-badge&color=73A8FF" alt="Live profile repository pull request count" />
+  <img src="https://img.shields.io/github/issues-raw/Jaclyn25/Jaclyn25?label=Profile%20Repo%20Issues&style=for-the-badge&color=BB7CFF" alt="Live profile repository issue count" />
 </p>
 
 <details>
   <summary>ℹ️ About the commit number</summary>
 
-  The overview card shows stars, commits, pull requests, issues, and contributed repositories. The separate card highlights all-time commits, while the badges below show the profile repository itself. These hosted cards use public activity; private repository statistics require a self-hosted instance with a GitHub token.
+  These cards are generated live from GitHub. The main card includes all-time commits, while the badges show current profile repository activity. Private repository statistics depend on the provider's access token and may not be included.
 </details>
 
 ---
