@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260" role="img" aria-labelledby="title description">
+  <title id="title">GitHub contribution streak for Jaclyn25</title>
+  <desc id="description">3 day current streak, 21 day longest streak, 125 active days, and 904 total contributions.</desc>
+  <rect width="860" height="260" rx="18" fill="#151221"/>
+  <circle cx="770" cy="-8" r="170" fill="#8a2be2" opacity="0.13"/>
+  <circle cx="840" cy="238" r="120" fill="#ff69b4" opacity="0.1"/>
+  <text x="44" y="48" fill="#f7f1ff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Contribution streak</text>
+  <text x="44" y="72" fill="#c6bfd2" font-family="Arial, Helvetica, sans-serif" font-size="13">Updated daily from GitHub's contribution calendar</text>
+  <line x1="44" y1="102" x2="816" y2="102" stroke="#3c354a"/>
+  <g transform="translate(44 152)">
+    
+  <g transform="translate(0 0)">
+    <text x="0" y="0" fill="#f7f1ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">3 days</text>
+    <text x="0" y="24" fill="#c6bfd2" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.2">CURRENT STREAK</text>
+  </g>
+    
+  <g transform="translate(190 0)">
+    <text x="0" y="0" fill="#f7f1ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">21 days</text>
+    <text x="0" y="24" fill="#c6bfd2" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.2">LONGEST STREAK</text>
+  </g>
+    
+  <g transform="translate(380 0)">
+    <text x="0" y="0" fill="#f7f1ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">125</text>
+    <text x="0" y="24" fill="#c6bfd2" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.2">ACTIVE DAYS</text>
+  </g>
+    
+  <g transform="translate(570 0)">
+    <text x="0" y="0" fill="#f7f1ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">904</text>
+    <text x="0" y="24" fill="#c6bfd2" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.2">TOTAL CONTRIBUTIONS</text>
+  </g>
+  </g>
+  <text x="44" y="226" fill="#ff69b4" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">JACLYN25 / OPEN SOURCE ACTIVITY</text>
+</svg>
