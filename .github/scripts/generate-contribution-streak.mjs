@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const username = process.env.GITHUB_USERNAME;
 const token = process.env.GITHUB_TOKEN;
@@ -126,3 +126,12 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
 
 await mkdir("dist", { recursive: true });
 await writeFile("dist/contribution-streak.svg", svg, "utf8");
+
+const statisticsTemplate = await readFile("assets/github-statistics.svg", "utf8");
+const statisticsSvg = statisticsTemplate
+  .replace(/(<text x="160" y="912">)[^<]+(<\/text>)/, `$1${currentStreak}$2`)
+  .replace(/(<text x="460" y="912">)[^<]+(<\/text>)/, `$1${longestStreak}$2`)
+  .replace(/(<text x="806" y="912">)[^<]+(<\/text>)/, `$1${activeDays}$2`)
+  .replace(/(<text x="1166" y="912">)[^<]+(<\/text>)/, `$1${totalContributions}$2`);
+
+await writeFile("dist/github-statistics.svg", statisticsSvg, "utf8");

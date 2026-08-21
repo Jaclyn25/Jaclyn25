@@ -52,41 +52,8 @@
 
 ## 📊 GitHub Statistics
 
-<table align="center" width="100%">
-<tr>
-<td width="50%" align="center" valign="middle">
-<h3>Account Overview</h3>
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jaclyn25&theme=radical" alt="GitHub overview with stars, commits, pull requests, issues, and contributions" />
-</td>
-<td width="50%" align="center" valign="middle">
-<h3>All-time Commits</h3>
-<img width="100%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaclyn25&show_icons=false&hide=stars,prs,issues,contribs&hide_rank=true&include_all_commits=true&number_format=long&custom_title=All-time%20GitHub%20Commits&theme=radical&hide_border=true&card_width=495" alt="All-time GitHub commits" />
-</td>
-</tr>
-</table>
-
-<table align="center" width="100%">
-<tr>
-<td width="33%" align="center"><img src="https://img.shields.io/github/commit-activity/t/Jaclyn25/Jaclyn25?label=Profile%20Repo%20Commits&style=for-the-badge&color=8A2BE2" alt="Profile repository commits" /></td>
-<td width="33%" align="center"><img src="https://img.shields.io/github/issues-pr-raw/Jaclyn25/Jaclyn25?label=Profile%20Repo%20PRs&style=for-the-badge&color=8A2BE2" alt="Profile repository pull requests" /></td>
-<td width="33%" align="center"><img src="https://img.shields.io/github/issues-raw/Jaclyn25/Jaclyn25?label=Profile%20Repo%20Issues&style=for-the-badge&color=FF69B4" alt="Profile repository issues" /></td>
-</tr>
-</table>
-
-<h3 align="center">Contribution Streak</h3>
-
 <p align="center">
-  <a href="https://github.com/Jaclyn25?tab=overview#js-contribution-activity">
-    <img width="100%" src="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/output/contribution-streak.svg" alt="GitHub contribution streak showing current streak, longest streak, active days, and total contributions" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Jaclyn25?tab=overview#js-contribution-activity">View the full contribution calendar on GitHub ↗</a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jaclyn25&theme=react-dark&area=true&hide_border=true&custom_title=Recent%20GitHub%20Activity" alt="Recent GitHub activity graph" />
+  <img width="100%" src="./assets/github-statistics.svg" alt="GitHub Statistics dashboard showing account overview, all-time commits, profile repository activity, and contribution streak" />
 </p>
 
 <details>

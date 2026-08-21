@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title description">
+  <title id="title">Jacqueline Saad's GitHub Statistics</title>
+  <desc id="description">A dark GitHub statistics dashboard with account overview, all-time commits, profile repository activity, and contribution streak metrics.</desc>
+
+  <rect width="1440" height="1080" rx="18" fill="#0b1117"/>
+  <rect x="1" y="1" width="1438" height="1078" rx="17" fill="none" stroke="#27333c" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect x="34" y="28" width="64" height="64" rx="14" fill="#0f171c" stroke="#2c7355" stroke-width="2"/>
+  <g transform="translate(47 41)" fill="#60e493">
+    <path d="M16 0C7.2 0 0 7.2 0 16c0 7.1 4.6 13.1 11 15.2.8.1 1.1-.3 1.1-.8v-3c-4.5 1-5.4-2.2-5.4-2.2-.7-1.9-1.8-2.4-1.8-2.4-1.5-1 .1-1 .1-1 1.6.1 2.4 1.6 2.4 1.6 1.4 2.4 3.6 1.7 4.5 1.3.1-1 .5-1.7 1-2.1-3.6-.4-7.4-1.8-7.4-8a6.3 6.3 0 0 1 1.6-4.4c-.2-.4-.7-2.1.2-4.4 0 0 1.3-.4 4.4 1.7a15 15 0 0 1 8 0c3.1-2.1 4.4-1.7 4.4-1.7.9 2.3.4 4 .2 4.4a6.3 6.3 0 0 1 1.6 4.4c0 6.2-3.8 7.6-7.4 8 .5.4 1.1 1.3 1.1 2.7v4c0 .5.3.9 1.1.8C27.4 29.1 32 23.1 32 16 32 7.2 24.8 0 16 0Z"/>
+  </g>
+  <text x="118" y="72" fill="#f4f7fa" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">GitHub Statistics</text>
+
+  <!-- Account Overview -->
+  <rect x="33" y="111" width="802" height="414" rx="16" fill="#10181e" stroke="#2b3841" stroke-width="2"/>
+  <g transform="translate(75 142)" fill="none" stroke="#60e493" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="13" cy="8" r="7"/>
+    <path d="M2 31v-3c0-5 4-8 11-8s11 3 11 8v3"/>
+  </g>
+  <text x="124" y="166" fill="#f4f7fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">Account Overview</text>
+
+  <rect x="67" y="196" width="435" height="304" rx="14" fill="#141d23" stroke="#2a3942" stroke-width="1.5"/>
+  <text x="93" y="245" fill="#f4f7fa" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Stats</text>
+
+  <g fill="none" stroke="#60e493" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m107 271 3.8 8 8.8 1.3-6.4 6.2 1.5 8.8-7.7-4.2-7.7 4.2 1.5-8.8-6.4-6.2 8.8-1.3Z"/>
+    <circle cx="107" cy="326" r="7"/><path d="M96 326h22M107 319v14"/>
+    <circle cx="101" cy="377" r="4"/><circle cx="114" cy="369" r="4"/><circle cx="114" cy="385" r="4"/><path d="m104 375 7-4m-7 4 7 8"/>
+    <circle cx="107" cy="414" r="11"/><path d="M107 408v7m0 5h.1"/>
+    <path d="M98 447h18v22H98zM101 469v6m12-6v6m-15-6h18"/>
+  </g>
+  <g fill="#c6d0d8" font-family="Arial, Helvetica, sans-serif" font-size="19">
+    <text x="137" y="289">Total Stars:</text>
+    <text x="137" y="332">Total Commits:</text>
+    <text x="137" y="377">Total PRs:</text>
+    <text x="137" y="421">Total Issues:</text>
+    <text x="137" y="465">Contributed to:</text>
+  </g>
+  <g fill="#60e493" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">
+    <text x="421" y="289">0</text>
+    <text x="421" y="332">226</text>
+    <text x="421" y="377">1</text>
+    <text x="421" y="421">0</text>
+    <text x="421" y="465">22</text>
+  </g>
+
+  <!-- GitHub mark -->
+  <circle cx="672" cy="338" r="121" fill="#10171d" stroke="#24513f" stroke-width="2"/>
+  <circle cx="672" cy="338" r="116" fill="none" stroke="#193228" stroke-width="1"/>
+  <g transform="translate(590 250) scale(5.15)" fill="#60e493">
+    <path d="M16 0C7.2 0 0 7.2 0 16c0 7.1 4.6 13.1 11 15.2.8.1 1.1-.3 1.1-.8v-3c-4.5 1-5.4-2.2-5.4-2.2-.7-1.9-1.8-2.4-1.8-2.4-1.5-1 .1-1 .1-1 1.6.1 2.4 1.6 2.4 1.6 1.4 2.4 3.6 1.7 4.5 1.3.1-1 .5-1.7 1-2.1-3.6-.4-7.4-1.8-7.4-8a6.3 6.3 0 0 1 1.6-4.4c-.2-.4-.7-2.1.2-4.4 0 0 1.3-.4 4.4 1.7a15 15 0 0 1 8 0c3.1-2.1 4.4-1.7 4.4-1.7.9 2.3.4 4 .2 4.4a6.3 6.3 0 0 1 1.6 4.4c0 6.2-3.8 7.6-7.4 8 .5.4 1.1 1.3 1.1 2.7v4c0 .5.3.9 1.1.8C27.4 29.1 32 23.1 32 16 32 7.2 24.8 0 16 0Z"/>
+  </g>
+
+  <!-- All-time commits -->
+  <rect x="858" y="111" width="549" height="414" rx="16" fill="#10181e" stroke="#2b3841" stroke-width="2"/>
+  <g transform="translate(895 143)" fill="none" stroke="#73a8ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 28V3m0 25h29"/><path d="m4 22 8-8 6 4 10-13"/><path d="M21 5h7v7"/>
+  </g>
+  <text x="948" y="166" fill="#f4f7fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">All-time Commits</text>
+  <rect x="893" y="246" width="489" height="220" rx="14" fill="#141d23" stroke="#2a3942" stroke-width="1.5"/>
+  <text x="925" y="312" fill="#73a8ff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">My GitHub Statistics</text>
+  <line x1="925" y1="360" x2="1350" y2="360" stroke="#2a3942" stroke-width="1.5"/>
+  <text x="925" y="416" fill="#c6d0d8" font-family="Arial, Helvetica, sans-serif" font-size="19">Total Commits:</text>
+  <text x="1350" y="420" text-anchor="end" fill="#73a8ff" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700">510</text>
+
+  <!-- Profile repository metrics -->
+  <rect x="33" y="550" width="439" height="94" rx="14" fill="#10181e" stroke="#2b3841" stroke-width="2"/>
+  <rect x="507" y="550" width="439" height="94" rx="14" fill="#10181e" stroke="#2b3841" stroke-width="2"/>
+  <rect x="963" y="550" width="444" height="94" rx="14" fill="#10181e" stroke="#2b3841" stroke-width="2"/>
+  <g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(68 575)" stroke="#60e493"><path d="M1 2h26v27H1zM5 9h18M5 15h18M5 21h9"/><path d="M7 29v6m14-6v6m-17-6h20"/></g>
+    <g transform="translate(543 575)" stroke="#73a8ff"><circle cx="8" cy="6" r="4"/><circle cx="8" cy="29" r="4"/><circle cx="25" cy="18" r="4"/><path d="M8 10v15m4-7h9"/></g>
+    <g transform="translate(1000 574)" stroke="#bb7cff"><circle cx="17" cy="18" r="17"/><path d="M17 9v10m0 6h.1"/></g>
+  </g>
+  <g fill="#bfc9d2" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.1">
+    <text x="124" y="601">PROFILE REPO COMMITS</text>
+    <text x="598" y="601">PROFILE REPO PRS</text>
+    <text x="1054" y="601">PROFILE REPO ISSUES</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700">
+    <text x="434" y="610" text-anchor="end" fill="#60e493">14</text>
+    <text x="908" y="610" text-anchor="end" fill="#73a8ff">0</text>
+    <text x="1370" y="610" text-anchor="end" fill="#bb7cff">0</text>
+  </g>
+
+  <!-- Contribution streak -->
+  <rect x="33" y="672" width="1374" height="323" rx="16" fill="#10181e" stroke="#2b3841" stroke-width="2"/>
+  <g transform="translate(75 706)" fill="none" stroke="#60e493" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 2c-1 7-7 10-7 17 0 7 5 12 12 12 8 0 13-6 13-14 0-6-4-11-9-16 0 7-3 10-6 11-1-4-2-7-3-10Z"/>
+  </g>
+  <text x="132" y="737" fill="#f4f7fa" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Contribution Streak</text>
+  <text x="74" y="777" fill="#bac5cf" font-family="Arial, Helvetica, sans-serif" font-size="17">Updated daily from GitHub's contribution calendar</text>
+  <line x1="72" y1="808" x2="1368" y2="808" stroke="#2b3841" stroke-width="1.5"/>
+  <g stroke="#33424c" stroke-width="1.5">
+    <line x1="370" y1="842" x2="370" y2="966"/>
+    <line x1="709" y1="842" x2="709" y2="966"/>
+    <line x1="1036" y1="842" x2="1036" y2="966"/>
+  </g>
+  <g fill="#60e493" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">
+    <text x="160" y="912">3</text>
+    <text x="460" y="912">21</text>
+    <text x="806" y="912">125</text>
+    <text x="1166" y="912">904</text>
+  </g>
+  <g fill="#c2ccd4" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    <text x="217" y="911">days</text>
+    <text x="560" y="911">days</text>
+  </g>
+  <g fill="#b9c5cf" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.4">
+    <text x="135" y="952">CURRENT STREAK</text>
+    <text x="460" y="952">LONGEST STREAK</text>
+    <text x="806" y="952">ACTIVE DAYS</text>
+    <text x="1165" y="952">TOTAL CONTRIBUTIONS</text>
+  </g>
+
+  <a href="https://github.com/Jaclyn25?tab=overview#js-contribution-activity">
+    <text x="720" y="1054" text-anchor="middle" fill="#73a8ff" font-family="Arial, Helvetica, sans-serif" font-size="18">View the full contribution calendar on GitHub  ↗</text>
+  </a>
+</svg>
