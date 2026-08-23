@@ -81,7 +81,7 @@
     <text x="1054" y="601">PROFILE REPO ISSUES</text>
   </g>
   <g font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700">
-    <text x="434" y="610" text-anchor="end" fill="#60e493">28</text>
+    <text x="434" y="610" text-anchor="end" fill="#60e493">29</text>
     <text x="908" y="610" text-anchor="end" fill="#73a8ff">0</text>
     <text x="1370" y="610" text-anchor="end" fill="#bb7cff">0</text>
   </g>
@@ -100,10 +100,10 @@
     <line x1="1036" y1="842" x2="1036" y2="966"/>
   </g>
   <g fill="#60e493" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">
-    <text x="160" y="912">1</text>
+    <text x="160" y="912">2</text>
     <text x="460" y="912">21</text>
-    <text x="806" y="912">126</text>
-    <text x="1166" y="912">913</text>
+    <text x="806" y="912">127</text>
+    <text x="1166" y="912">914</text>
   </g>
   <g fill="#c2ccd4" font-family="Arial, Helvetica, sans-serif" font-size="18">
     <text x="217" y="911">days</text>
