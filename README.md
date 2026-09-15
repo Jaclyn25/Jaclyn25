@@ -89,7 +89,7 @@ I build full-stack products with a backend-first mindset, clear data flows, and 
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Jaclyn25&theme=radical" alt="Jacqueline Saad GitHub contribution streak" />
+  <img src="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/main/assets/github-streak.svg" alt="Jacqueline Saad GitHub contribution streak" />
 </p>
 
 <p align="center">
