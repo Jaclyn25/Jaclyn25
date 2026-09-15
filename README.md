@@ -84,16 +84,12 @@ I build full-stack products with a backend-first mindset, clear data flows, and 
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaclyn25&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide_rank=true" height="172" alt="Jacqueline Saad GitHub statistics" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaclyn25&show_icons=true&theme=radical&count_private=true&include_all_commits=true" height="172" alt="Jacqueline Saad GitHub statistics" />
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Jaclyn25&layout=compact&theme=radical" height="172" alt="Jacqueline Saad top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jaclyn25&theme=radical" alt="Jacqueline Saad GitHub contribution streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jaclyn25&theme=react-dark&area=true&hide_border=true&custom_title=Contribution%20Timeline" alt="Jacqueline Saad GitHub contribution timeline" />
+  <img src="https://streak-stats.demolab.com/?user=Jaclyn25&theme=radical" alt="Jacqueline Saad GitHub contribution streak" />
 </p>
 
 <p align="center">
