@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://github.com/Jaclyn25"><img src="https://komarev.com/ghpvc/?username=Jaclyn25&label=Profile%20Views&color=1c6c8a&style=for-the-badge" alt="Profile views" /></a>
   <a href="https://github.com/Jaclyn25?tab=followers"><img src="https://img.shields.io/github/followers/Jaclyn25?label=Followers&style=for-the-badge&color=6d28d9" alt="GitHub followers" /></a>
-  <a href="https://github.com/Jaclyn25/Jaclyn25/commits/main/"><img src="https://img.shields.io/github/commit-activity/t/Jaclyn25/Jaclyn25?label=Profile%20Commits&style=for-the-badge&color=1c6c8a" alt="Profile repository commits" /></a>
 </p>
 
 <p align="center">
@@ -84,16 +83,22 @@ I build full-stack products with a backend-first mindset, clear data flows, and 
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaclyn25&show_icons=true&theme=radical&count_private=true&include_all_commits=true" height="172" alt="Jacqueline Saad GitHub statistics" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Jaclyn25&layout=compact&theme=radical" height="172" alt="Jacqueline Saad top languages" />
+  <a href="https://github.com/Jaclyn25?tab=overview"><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaclyn25&amp;show_icons=true&amp;theme=radical&amp;include_all_commits=true&amp;cache_seconds=7200" height="172" alt="Jacqueline Saad public GitHub statistics: commits, pull requests, issues, stars, and repositories contributed to" /></a>
+  <a href="https://github.com/Jaclyn25?tab=repositories"><img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Jaclyn25&amp;layout=compact&amp;theme=radical&amp;cache_seconds=7200" height="172" alt="Most used languages across Jacqueline Saad's public repositories" /></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Jaclyn25/Jaclyn25/main/assets/github-streak.svg" alt="Jacqueline Saad GitHub contribution streak" />
+  <a href="https://github.com/Jaclyn25?tab=overview#js-contribution-activity"><img src="https://streak-stats.demolab.com?user=Jaclyn25&amp;theme=radical" alt="Jacqueline Saad total contributions, current streak, and longest streak" /></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Jaclyn25?tab=overview#js-contribution-activity">View the full contribution calendar on GitHub ↗</a>
+  · <a href="https://github.com/search?q=author%3AJaclyn25+is%3Apr&amp;type=pullrequests">Pull requests ↗</a>
+  · <a href="https://github.com/search?q=author%3AJaclyn25&amp;type=commits">Public commits ↗</a>
+</p>
+
+<p align="center">
+  <sub>Cards refresh automatically through external services; cached results may take time to update. Public repository statistics and contribution totals can differ.</sub>
 </p>
 
 ---

@@ -30,3 +30,13 @@ Avoid cluttered widget collections, uneven card layouts, broken image placeholde
 ## Accessibility & Inclusion
 
 Use meaningful alt text, readable contrast, descriptive link labels, and layouts that remain understandable when images fail to load or when the profile is viewed on a narrow screen.
+
+## GitHub Activity Data
+
+- Embed remote SVG endpoints directly in `README.md`. Do not save metric snapshots under `assets/` or use scheduled bot commits to refresh them.
+- The stats card reports public commits across years (`include_all_commits=true`), authored PRs, issues, received stars, and repositories contributed to. The old profile-repository commit badge counted only this README repository, so it was removed.
+- Stats and language cards request a two-hour cache (`cache_seconds=7200`). The streak endpoint currently advertises a one-day cache. Provider caches and GitHub's image proxy can delay visible changes; these are automatic refreshes, not instant updates.
+- Public services cannot be given access to private repositories by adding `count_private=true`. Private repository statistics require a separately hosted service with server-side credentials. Never put a GitHub token in a README URL.
+- The streak card follows GitHub contribution activity; its total includes more than commits. Language percentages describe repository code, not proficiency or time spent.
+- Keep direct GitHub links for contributions, PRs, and commits available when an external card is unavailable. Public endpoints can hit rate limits or stop working.
+- Reference documentation: [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) and [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats). The original stats project is now unmaintained; recheck provider health before changing endpoints.
