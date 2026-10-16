@@ -83,7 +83,7 @@ I build full-stack products with a backend-first mindset, clear data flows, and 
 ## 📊 GitHub Activity
 
 <p align="center">
-  <a href="https://github.com/Jaclyn25?tab=overview"><img src="https://jaclyn25-stats.vercel.app/api/stats" height="230" alt="Jacqueline Saad public and authorized private GitHub statistics: qualifying commits across all years, pull requests, issues, stars, and owned repositories" /></a>
+  <a href="https://github.com/Jaclyn25?tab=overview"><img src="https://jaclyn25-stats.vercel.app/api/stats" height="254" alt="Jacqueline Saad public and authorized private GitHub statistics: contributions in the last year, qualifying commits across all years, pull requests, issues, stars, and owned repositories" /></a>
   <a href="https://github.com/Jaclyn25?tab=repositories"><img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Jaclyn25&amp;layout=compact&amp;theme=radical&amp;cache_seconds=7200" height="172" alt="Most used languages across Jacqueline Saad's public repositories" /></a>
 </p>
 

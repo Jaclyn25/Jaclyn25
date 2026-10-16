@@ -47,7 +47,8 @@ Use meaningful alt text, readable contrast, descriptive link labels, and layouts
 It requires a server-side `GITHUB_TOKEN` owned by `GITHUB_USERNAME` (default
 `Jaclyn25`). It sums qualifying commit contributions across calendar years,
 counts all-time authored PRs and issues visible to the token, and paginates
-owned repositories for stars. Only aggregate numbers are returned. The service
+owned repositories for stars. A separate `Contributions (last year)` row uses
+GitHub's default contribution calendar total. Only aggregate numbers are returned. The service
 requests a five-minute CDN cache; GitHub's image proxy can add delay. It does
 not change the external language or streak cards. See `DEPLOYMENT.md` for token
 scope and deployment. Production has been deployed and verified to return an

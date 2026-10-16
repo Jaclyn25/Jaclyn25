@@ -9,6 +9,7 @@ function initial() {
     viewer: { login: 'Jaclyn25' },
     user: {
       createdAt: '2025-03-03T00:00:00Z',
+      contributionsCollection: { contributionCalendar: { totalContributions: 3150 } },
       pullRequests: { totalCount: 19 }, issues: { totalCount: 7 },
       repositories: { totalCount: 101, nodes: [{ stargazerCount: 2 }], pageInfo: { hasNextPage: true, endCursor: 'page2' } },
     },
@@ -22,7 +23,7 @@ test('sums commit contributions across years and paginates owned repository star
   const calls = [];
   const results = [initial(), { user: { repositories: { nodes: [{ stargazerCount: 4 }], pageInfo: { hasNextPage: false } } } }, { user: { y0: { totalCommitContributions: 1800 }, y1: { totalCommitContributions: 1400 } } }];
   const stats = await collectStats(async (query, variables) => { calls.push({ query, variables }); return results.shift(); }, 'Jaclyn25', now);
-  assert.deepEqual(stats, { stars: 6, commits: 3200, prs: 19, issues: 7, repositories: 101, updatedAt: now.toISOString() });
+  assert.deepEqual(stats, { stars: 6, commits: 3200, contributionsLastYear: 3150, prs: 19, issues: 7, repositories: 101, updatedAt: now.toISOString() });
   assert.equal(calls[1].variables.after, 'page2');
   assert.match(calls[2].query, /2025-01-01/);
   assert.match(calls[2].query, /2026-10-17/);
@@ -83,6 +84,8 @@ test('successful card exposes aggregates only and requests a five-minute CDN cac
   assert.equal(res.statusCode, 200);
   assert.equal(res.headers['Vercel-CDN-Cache-Control'], 'public, s-maxage=300');
   assert.match(res.body, /3,000/);
+  assert.match(res.body, /Contributions \(last year\)/);
+  assert.match(res.body, /3,150/);
   assert.doesNotMatch(res.body, /secret-token|someone-else|stargazerCount/);
 });
 

@@ -33,6 +33,9 @@ code, tokens, or raw GitHub responses. There are no scheduled bot commits.
 
 ## What the numbers mean
 
+- Contributions (last year): GitHub's default contribution calendar total,
+  fetched from `contributionsCollection.contributionCalendar.totalContributions`.
+  This rolls forward automatically and is separate from all-time commit totals.
 - PRs and issues: all-time authored records visible to the token, public and
   authorized private. Repository access can limit these totals.
 - Commits: sum of `totalCommitContributions` for each calendar year since account
