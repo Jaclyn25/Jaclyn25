@@ -45,7 +45,7 @@ Use meaningful alt text, readable contrast, descriptive link labels, and layouts
 
 `api/stats.js` is the Vercel alternative for public and authorized private totals.
 It requires a server-side `GITHUB_TOKEN` owned by `GITHUB_USERNAME` (default
-`Jaclyn25`). It sums qualifying commit contributions across calendar years,
+`Jaclyn25`). It uses authenticated all-time commit search totals,
 counts all-time authored PRs and issues visible to the token, and paginates
 owned repositories for stars. A separate `Contributions (last year)` row uses
 GitHub's default contribution calendar total. Only aggregate numbers are returned. The service

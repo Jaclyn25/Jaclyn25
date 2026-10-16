@@ -42,10 +42,12 @@ code, tokens, or raw GitHub responses. There are no scheduled bot commits.
   This rolls forward automatically and is separate from all-time commit totals.
 - PRs and issues: all-time authored records visible to the token, public and
   authorized private. Repository access can limit these totals.
-- Commits: sum of `totalCommitContributions` for each calendar year since account
-  creation. This follows GitHub's contribution rules (including branch and
-  author-email rules); it is not every commit from every branch. This metric
-  can differ from the old card's public commit search count.
+- Commits: authenticated GitHub commit search `author:Jaclyn25`, using the
+  response's all-time `total_count`, including private repositories visible to
+  the token. GitHub searches indexed default branches, not every branch.
+  Incomplete search responses fail instead of publishing a partial total.
+  This is independent of calendar contribution counts and the 1,000-item
+  search result pagination limit. Token permissions and indexing still apply.
 - Stars and owned repositories: the owner's repositories visible to the token.
   Stars are paginated beyond the first 100 repositories. The card labels owned
   repositories explicitly; this is not an all-time count of contributed repos.

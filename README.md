@@ -98,7 +98,7 @@ I build full-stack products with a backend-first mindset, clear data flows, and 
 </p>
 
 <p align="center">
-  <sub>Statistics include public and authorized private activity, with a five-minute service cache. Commits follow GitHub contribution rules. Languages reflect public repositories; the streak card refreshes separately. GitHub's image cache may delay updates.</sub>
+  <sub>Statistics include public and authorized private activity, with a five-minute service cache. Commits follow GitHub search scope and indexing rules. Languages reflect public repositories; the streak card refreshes separately. GitHub's image cache may delay updates.</sub>
 </p>
 
 ---
