@@ -25,7 +25,7 @@ code, tokens, or raw GitHub responses. There are no scheduled bot commits.
 4. Keep the value in Vercel's environment settings. Never commit it, include it
    in an image URL, or paste it in chat. Do not use a `NEXT_PUBLIC_` variable.
 5. Deploy, then visit `https://YOUR-PROJECT.vercel.app/api/stats`. Confirm the
-   image loads and the fetched timestamp and totals look correct. The endpoint
+   image loads and the totals look correct. The endpoint
    must be public for GitHub's image proxy; check Vercel Deployment Protection
    if you see a login page instead of the SVG.
 6. Replace **only** the stats image URL in `README.md` with that verified URL.
@@ -52,7 +52,7 @@ code, tokens, or raw GitHub responses. There are no scheduled bot commits.
 The CDN cache is five minutes, with browser revalidation. A new fetch happens
 on a request after expiry, not on a timer. GitHub's image proxy and upstream
 indexing can still delay visible updates; five minutes is not an end-to-end SLA.
-The fetched timestamp makes a stale image identifiable. Failed or incomplete
+Failed or incomplete
 requests produce an uncached unavailable card instead of a misleading zero.
 Only the configured owner's token works; URL parameters cannot select a
 different user or expose individual private resources.
