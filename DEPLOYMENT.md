@@ -33,6 +33,10 @@ code, tokens, or raw GitHub responses. There are no scheduled bot commits.
 
 ## What the numbers mean
 
+- Activity grade: the GitHub Readme Stats scoring formula, calculated from
+  all-time qualifying commits, PRs, issues, received stars, followers, and
+  reviews in the last year. It updates automatically and is not an official
+  GitHub ranking. See `lib/rank.js` and `THIRD_PARTY_LICENSES.txt`.
 - Contributions (last year): GitHub's default contribution calendar total,
   fetched from `contributionsCollection.contributionCalendar.totalContributions`.
   This rolls forward automatically and is separate from all-time commit totals.

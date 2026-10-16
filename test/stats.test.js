@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { collectStats, createGitHubClient, yearRanges } from '../lib/stats.js';
 import { makeHandler } from '../api/stats.js';
+import { calculateRank } from '../lib/rank.js';
 
 const now = new Date('2026-10-17T12:00:00Z');
 function initial() {
@@ -9,7 +10,8 @@ function initial() {
     viewer: { login: 'Jaclyn25' },
     user: {
       createdAt: '2025-03-03T00:00:00Z',
-      contributionsCollection: { contributionCalendar: { totalContributions: 3150 } },
+      contributionsCollection: { contributionCalendar: { totalContributions: 3150 }, totalPullRequestReviewContributions: 2 },
+      followers: { totalCount: 10 },
       pullRequests: { totalCount: 19 }, issues: { totalCount: 7 },
       repositories: { totalCount: 101, nodes: [{ stargazerCount: 2 }], pageInfo: { hasNextPage: true, endCursor: 'page2' } },
     },
@@ -23,7 +25,9 @@ test('sums commit contributions across years and paginates owned repository star
   const calls = [];
   const results = [initial(), { user: { repositories: { nodes: [{ stargazerCount: 4 }], pageInfo: { hasNextPage: false } } } }, { user: { y0: { totalCommitContributions: 1800 }, y1: { totalCommitContributions: 1400 } } }];
   const stats = await collectStats(async (query, variables) => { calls.push({ query, variables }); return results.shift(); }, 'Jaclyn25', now);
-  assert.deepEqual(stats, { stars: 6, commits: 3200, contributionsLastYear: 3150, prs: 19, issues: 7, repositories: 101, updatedAt: now.toISOString() });
+  const { rank, ...totals } = stats;
+  assert.deepEqual(totals, { stars: 6, commits: 3200, contributionsLastYear: 3150, prs: 19, issues: 7, repositories: 101, updatedAt: now.toISOString() });
+  assert.ok(Number.isFinite(rank.percentile));
   assert.equal(calls[1].variables.after, 'page2');
   assert.match(calls[2].query, /2025-01-01/);
   assert.match(calls[2].query, /2026-10-17/);
@@ -86,7 +90,17 @@ test('successful card exposes aggregates only and requests a five-minute CDN cac
   assert.match(res.body, /3,000/);
   assert.match(res.body, /Contributions \(last year\)/);
   assert.match(res.body, /3,150/);
+  assert.match(res.body, /Activity grade/);
   assert.doesNotMatch(res.body, /secret-token|someone-else|stargazerCount/);
+});
+
+test('activity grade improves with activity and supports the full grade range', () => {
+  const empty = calculateRank({});
+  assert.equal(empty.level, 'C');
+  assert.equal(empty.percentile, 100);
+  const strong = calculateRank({ commits: 100000, prs: 10000, issues: 10000, reviews: 10000, stars: 100000, followers: 100000 });
+  assert.equal(strong.level, 'S');
+  assert.ok(strong.percentile < calculateRank({ commits: 1000, prs: 50 }).percentile);
 });
 
 test('blocks non-read methods before calling GitHub', async () => {
