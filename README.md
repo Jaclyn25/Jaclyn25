@@ -83,7 +83,7 @@ I build full-stack products with a backend-first mindset, clear data flows, and 
 ## 📊 GitHub Activity
 
 <p align="center">
-  <a href="https://github.com/Jaclyn25?tab=overview"><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaclyn25&amp;show_icons=true&amp;theme=radical&amp;include_all_commits=true&amp;cache_seconds=7200" height="172" alt="Jacqueline Saad public GitHub statistics: commits, pull requests, issues, stars, and repositories contributed to" /></a>
+  <a href="https://github.com/Jaclyn25?tab=overview"><img src="https://jaclyn25-stats.vercel.app/api/stats" height="230" alt="Jacqueline Saad public and authorized private GitHub statistics: qualifying commits across all years, pull requests, issues, stars, and owned repositories" /></a>
   <a href="https://github.com/Jaclyn25?tab=repositories"><img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Jaclyn25&amp;layout=compact&amp;theme=radical&amp;cache_seconds=7200" height="172" alt="Most used languages across Jacqueline Saad's public repositories" /></a>
 </p>
 
@@ -98,7 +98,7 @@ I build full-stack products with a backend-first mindset, clear data flows, and 
 </p>
 
 <p align="center">
-  <sub>Cards refresh automatically through external services; cached results may take time to update. Public repository statistics and contribution totals can differ.</sub>
+  <sub>Statistics include public and authorized private activity, with a five-minute service cache. Commits follow GitHub contribution rules. Languages reflect public repositories; the streak card refreshes separately. GitHub's image cache may delay updates.</sub>
 </p>
 
 ---
