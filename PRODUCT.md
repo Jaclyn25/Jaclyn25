@@ -40,3 +40,14 @@ Use meaningful alt text, readable contrast, descriptive link labels, and layouts
 - The streak card follows GitHub contribution activity; its total includes more than commits. Language percentages describe repository code, not proficiency or time spent.
 - Keep direct GitHub links for contributions, PRs, and commits available when an external card is unavailable. Public endpoints can hit rate limits or stop working.
 - Reference documentation: [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) and [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats). The original stats project is now unmaintained; recheck provider health before changing endpoints.
+
+## Self-hosted Statistics
+
+`api/stats.js` is the Vercel alternative for public and authorized private totals.
+It requires a server-side `GITHUB_TOKEN` owned by `GITHUB_USERNAME` (default
+`Jaclyn25`). It sums qualifying commit contributions across calendar years,
+counts all-time authored PRs and issues visible to the token, and paginates
+owned repositories for stars. Only aggregate numbers are returned. The service
+requests a five-minute CDN cache; GitHub's image proxy can add delay. It does
+not change the external language or streak cards. See `DEPLOYMENT.md` for token
+scope, deployment, and verification before changing the README image URL.
